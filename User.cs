@@ -4,32 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryManagement1
+namespace OnlineCinemaTicketBookingSystem
 {
     internal class User
     {
-        public void WriteFile()
+        string customerName, movieName, location;
+        public int customerId;
+        // DateTime issueDate;
+
+        Admin admin = new Admin();
+        public void BookMovie()
         {
-            FileStream fileStreamObj = new FileStream(@"C:\Users\hp\Documents\AssignmentRepo\UserFile.txt", FileMode.Append, FileAccess.Write);
-            StreamWriter streamWriterObj = new StreamWriter(fileStreamObj);
-            streamWriterObj.WriteLine("USER DETAILS");
-            Console.WriteLine("Enter the User Id");
-            streamWriterObj.Write("\nUser Id : ");
-            streamWriterObj.WriteLine(Console.ReadLine());
+            Console.WriteLine("Enter Your name");
+            customerName = Console.ReadLine();
 
-            Console.WriteLine("Enter the Name");
-            streamWriterObj.Write("User Name : ");
-            streamWriterObj.WriteLine(Console.ReadLine());
+            Console.WriteLine("Enter Your  customer Id");
+            customerId = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter Email Address");
-            streamWriterObj.Write("User Email : ");
-            streamWriterObj.WriteLine(Console.ReadLine());
+            Console.WriteLine("Enter the movie name you want to book.");
+            movieName = Console.ReadLine();
 
-            streamWriterObj.Close();
-            fileStreamObj.Close();
-            Console.WriteLine();
+            Console.WriteLine("Enter the location where you want to book movie.");
+            movieName = Console.ReadLine();
+
+
+            admin.StoreCustomerDetails(customerName, customerId, movieName, location);
+            Console.WriteLine("Thanks for booking.");
+            Console.WriteLine("Have a nice day!");
+
 
         }
+
     }
 }
-}
+    
