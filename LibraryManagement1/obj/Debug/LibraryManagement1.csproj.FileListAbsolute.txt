@@ -1,0 +1,8 @@
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\obj\Debug\LibraryManagement1.csproj.AssemblyReference.cache
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\obj\Debug\LibraryManagement1.csproj.SuggestedBindingRedirects.cache
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\obj\Debug\LibraryManagement1.csproj.CoreCompileInputs.cache
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\bin\Debug\LibraryManagement1.exe.config
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\bin\Debug\LibraryManagement1.exe
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\bin\Debug\LibraryManagement1.pdb
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\obj\Debug\LibraryManagement1.exe
+C:\Users\chandrashekar\OneDrive\Desktop\local\LibraryManagement1\obj\Debug\LibraryManagement1.pdb
